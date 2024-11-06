@@ -1,0 +1,59 @@
+
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Selam", "Merhaba", "Gunaydin","Hey","Pardon", "Iyi gunler"],
+         "responses": ["Degerli calisanimiz; destek hattina  hosgeldiniz.ihtiyac duydugunuz her anda is  sureclerinde size rehberlik etmek icin yaninizdayiz. Size nasil yardimci olabilirim?"],
+         "context": [""]
+        },
+        {"tag": "insan kaynaklari ",
+         "patterns": ["Insan Kaynaklari","Ise Alim", "Egitim","Transfer","Terfi" ,"Rotasyon", "Kariyer","Performans Yonetimi"],
+         "responses": ["Degerli calisanimiz ...... 'ya giderek veya websitesine girerek , Egitim talebi gibi islemleri yapabilirsiniz. Detaylar icin deneme@deneme.com.tr  adresine  mail gonderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": " teknoloji surecleri",
+         "patterns": ["Teknoloji Surecleri", "Sap",  "Sys", "Jira" ,"Teknik Destek","Bilgisayar"," Yazici", "Monitor","Haberlesme","Hat", "Telefon", "Tablet", "Sistem","Sunucu ve yetki", "Network ve Guvenlik","VPN"," Erisim talebi", " Ihlal bildirimi" ,"Usb izin", "Yeni veri gelistirme"," veri temizligi", "Veri Gorsellestirme" ,"veri analizi", "Veri Tabani"," Veri tabani erisimi"],
+         "responses": ["Degerli calisanimiz, Teknoloji ile ilgili tum taleplerinizde deneme@deneme.com.tr adresine mail gönderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "muhasebe ve finans",
+         "patterns": ["Muhasebe ve Finans", "Masraf Kapama", "Avans talep", "Fatura odeme"],
+         "responses": ["Degerli calisanimiz, Muhasebe ve Finans ile ilgili taleplerinizde , deneme.com.tr adresine giris yaptiktan sonra sol tarafta yer alan islem menusunden uygun basligi secerek ilgili taleplerinizi hizlica iletebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "idari isler",
+         "patterns": ["Ulasim Servisleri", "Yemekhane", "Konaklama", "Seyahat", "Idari Yazisma", "Servis","Evrak Kayit","Masa" ,"Sandalye","Demirbas talep"],
+         "responses": ["Degerli calisanimiz, Idari Isler ile ilgili deneme.com.tr adresinden sayfanin sol tarafinda yer alan islem menusundan taleplerinizi hizlica iletebilirsiniz. Diger talepleriniz ile ilgili deneme@deneme.com.tr adresine mail gonderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "arac filo",
+         "patterns": ["Arac Filo", "Arac Talep", "Arac zimmet", "Bakim" ,"Onarim", "Muayene"],
+         "responses": ["Degerli calisanimiz, tum sirket calisanlarimiz icin Arac Filo; Lastik, Bakim, Onarim, Ariza ,Kaza vb. taleplerinizi dimbillan.com.tr adresinden, is seyahati icin Arac Tahsis taleplerinizi ise preze.com.tr adresinden sayfanin sol tarafinda yer alan islem menusundan secerek taleplerinizi hizlica iletebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "is sagligi ve guvenligi",
+         "patterns": ["Is Sagligi ve Guvenligi", "Muayene","Saglik Kontrol" ,"Kimyasal", "Fiziksel" ,"Biyolojik" ," Hastalik" ,"Yaralanma","onleme"],
+         "responses": ["Degerli calisanimiz, Is sagligi ile ilgili konularda deneme@deneme.com.tr adresine, Is Guvenligi ilgili konularda ise deneme@deneme.com.tr adresine mail gonderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "satinalma",
+         "patterns": ["Satinalma",  "Mal Alim", "Hizmet Alim", "Kiralama"],
+         "responses": ["Degerli calisanimiz, Satin alma ile ilgili surecler icin bilgisayarinizda bulunan SAP uygulamasina giris yaparak satin alma talebi olusturabilir veya onceden olusturulmus satin alma taleplerinin durumunu kontrol edebilirsiniz. Diger talepleriniz ile ilgili deneme@deneme.com.tr adresine mail gonderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "kurumsal iletisim",
+         "patterns": ["Kurumsal Iletisim", "Kurumsal",  "Itibar  Yonetimi", "Sponsorluk", "Sosyal Sorumluluk", "Medya", "Basin"],
+         "responses": ["Degerli calisanimiz, Kurumsal Iletisim ile ilgili surecler icin deneme@deneme.com.tr adresine mail gonderebilirsiniz."],
+         "context": [""]
+        },
+        {"tag": "vedalasma",
+         "patterns": ["Tesekkurler", "Sag ol", "Iyi gunler", "Hoscakalin", "Sorunum cozuldu" ],
+         "responses": ["Tum taleplerinize cozum bulmak icin IK olarak tum enerjimizle yaninizdayiz. Yardimci olabilecegim baska bir konu olursa beni yine burada bulabilirsiniz. Ilginiz icin tesekkur eder, iyi calismalar dileriz."],
+         "context": [""]
+        },
+        {"tag": "Anlamadik",
+         "patterns": [""],
+         "responses": ["Uzgunum ne dediginizi anlayamadim. Size yardimci olabilmemiz icin daha acik yazabilir misiniz?"],
+         "context": [""]
+        }
+   ]
+}
